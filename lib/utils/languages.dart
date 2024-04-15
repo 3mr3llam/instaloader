@@ -1,0 +1,51 @@
+import 'package:get/get.dart';
+
+class Languages extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'ar': {
+          'getContent': 'الحصول على التفاصيل',
+          'enterURL': 'أدخل عنوان الرابط',
+          'warning': 'تحذير',
+          'invalidUrlText': 'يرجى إدخال عنوان صالح لـ Instagram',
+          'download': 'تحميل',
+          'error': 'خطأ',
+          'downloadComplete': 'التحميل أكتمل',
+          'downloadCompleteMsg': 'تم التحميل بنجاح',
+          'failedLoadContent': 'فشل في تحميل المحتوى',
+          'couldnotGetData': 'لا يمكن الحصول على البيانات، برجاء المحاولة لاحقاً',
+          'no': 'لا',
+          'yes': 'أجل',
+          'ok': 'حسنا',
+          'rateThisApp': 'قيم هذا التطبيق',
+          'rateThisAppMessage': 'هل تريد اعجبك هذا التطبيق؟ من فضلك اترك تقيم له',
+          'checkThisApp': 'تحقق من هذا التطبيق',
+          'privacyPolicy': 'سياسة الخصوصية',
+          'termsConditions': 'الشروط والأحكام',
+          'share': 'مشاركة',
+          'rateUs': 'التقييم',
+        },
+        'en': {
+          'getContent': 'Get Content',
+          'enterURL': 'Please enter the URL',
+          'warning': 'Warning',
+          'download': 'Download',
+          'invalidUrlText': 'Please enter a valid Instagram URL',
+          'error': 'Error',
+          'downloadComplete': 'Download Complete',
+          'downloadCompleteMsg': 'Download completed successfully',
+          'failedLoadContent': 'Failed to load content',
+          'couldnotGetData': 'Couldn\'t get the data, please try again later',
+          'no': 'No',
+          'yes': 'Yes',
+          'ok': 'Ok',
+          'rateThisApp': 'Rate This App',
+          'rateThisAppMessage': 'Do you like this app? Please leave a star rating',
+          'checkThisApp': 'Check out this app:',
+          'privacyPolicy': 'Privacy Policy',
+          'termsConditions': 'Terms & Conditions',
+          'share': 'Share',
+          'rateUs': 'Rate Us',
+        },
+      };
+}
